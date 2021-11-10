@@ -21,10 +21,10 @@ class Browser extends React.Component {
                         <input type="text" name="title" value={this.props.text} onChange={this.props.update}/>  
                     </label> 
                     <button className="button">
-                        <Link to="/home" name="search" onClick={this.props.update}>Show Matching Plays</Link>
+                        <Link to="/COMP-4513-Fall2021-Assignment1/home" name="search" onClick={this.props.update}>Show Matching Plays</Link>
                     </button> 
                     <button className="button">
-                        <Link to="/home" name="clear" onClick={this.props.update}>Show All Plays</Link>
+                        <Link to="/COMP-4513-Fall2021-Assignment1/home" name="clear" onClick={this.props.update}>Show All Plays</Link>
                     </button> 
                 </div>
             </div>

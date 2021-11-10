@@ -12,7 +12,7 @@ class Header extends React.Component {
         return (
             <header className="App-header tc1">
                 <div>
-                    <Link className="logo" to="/" name="home" onClick={this.props.update}>
+                    <Link className="logo" to="/COMP-4513-Fall2021-Assignment1/" name="home" onClick={this.props.update}>
                         <img src={this.props.logo} alt="Logo" />
                     </Link>
                     <button className="button" name="aboutOpen" onClick={this.props.updateDisplay}>

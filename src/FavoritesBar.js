@@ -23,7 +23,7 @@ class FavoritesBar extends React.Component {
                     <FavoriteLabel isFavorite={true}/>
                     <FavoriteResize isOpen={this.props.display.isFavoriteOpen} update={this.props.show}/>
                     <div>
-                        {this.props.favorites.map((f, index) => <div key={index}> <Link to="/details"  value={f.id} name="gotoDetails" onClick={this.props.setCurrentPlay}>{f.title}</Link> <FavoriteButton isFavorite={true} id={f.id} updateFavorite={this.props.update}/> </div>)}
+                        {this.props.favorites.map((f, index) => <div key={index}> <Link to="/COMP-4513-Fall2021-Assignment1/details"  value={f.id} name="gotoDetails" onClick={this.props.setCurrentPlay}>{f.title}</Link> <FavoriteButton isFavorite={true} id={f.id} updateFavorite={this.props.update}/> </div>)}
                     </div>
                 </section>
             );

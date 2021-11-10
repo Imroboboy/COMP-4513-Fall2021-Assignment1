@@ -22,7 +22,7 @@ class FilteredPlays extends React.Component {
                                     <p>{p.likelyDate}</p> 
                                     <FavoriteButton isFavorite={this.props.checkFavorite(p.id)} id={p.id} updateFavorite={this.props.updateFavorites}/> 
                                     <button className="button viewDetails"> 
-                                        <Link to="/details" value={p.id} name="gotoDetails" onClick={this.props.setCurrentPlay}>View</Link>
+                                        <Link to="/COMP-4513-Fall2021-Assignment1/details" value={p.id} name="gotoDetails" onClick={this.props.setCurrentPlay}>View</Link>
                                     </button>  
                                 </div>
                             )}

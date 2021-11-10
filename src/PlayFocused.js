@@ -88,7 +88,7 @@ class PlayFocused extends React.Component {
                     
                     <div className="alignButtons">
                         <button className="button smallButton viewHome"> 
-                            <Link to="/home" value={info.id} name="gotoHome">Close</Link>
+                            <Link to="/COMP-4513-Fall2021-Assignment1/home" value={info.id} name="gotoHome">Close</Link>
                         </button>  
                         <FavoriteButton isFavorite={this.props.checkFavorite(info.id)} id={info.id} updateFavorite={this.props.updateFavorites}/> 
                     </div>

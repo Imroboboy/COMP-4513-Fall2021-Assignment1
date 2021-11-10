@@ -363,11 +363,11 @@ class App extends React.Component {
     return (
       <div id="App">
         <Routes>
-          <Route path="/" element={ 
+          <Route path="/COMP-4513-Fall2021-Assignment1/" element={ 
             <Browser logo={logo} text={this.state.filters.title} update={this.useFilters}/>
           }/>
 
-          <Route path="/home" element={
+          <Route path="/COMP-4513-Fall2021-Assignment1/home" element={
             <div>
               <Header logo={logo} updateDisplay={this.updateDisplay} isAboutOpen={this.state.display.isShowingAbout}/>
               <DefaultView logo={logo} 
@@ -382,7 +382,7 @@ class App extends React.Component {
             </div>
           }/>
 
-          <Route path="/details" element={
+          <Route path="/COMP-4513-Fall2021-Assignment1/details" element={
             <div>
               <Header logo={logo} updateDisplay={this.updateDisplay} isAboutOpen={this.state.display.isShowingAbout}/>
               <DefaultView logo={logo} 
