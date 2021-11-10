@@ -56,10 +56,10 @@ class App extends React.Component {
     //console.log(window.location.pathname === "/details");
     //console.log("> " + state.display.isDetailsOpen === (window.location.pathname === "/details"));
     
-    if(!(state.display.isDetailsOpen) === (window.location.pathname === "/details")) {
+    if(!(state.display.isDetailsOpen) === (window.location.pathname === "/COMP-4513-Fall2021-Assignment1/details")) {
       //console.log(state.display.isDetailsOpen)
       let updatingDisplay = {...this.state.display};
-      updatingDisplay["isDetailsOpen"] = (window.location.pathname === "/details");
+      updatingDisplay["isDetailsOpen"] = (window.location.pathname === "/COMP-4513-Fall2021-Assignment1/details");
 
       updatingDisplay["isFavoriteOpen"] = false;
       //updatingDisplay["isDoneTransition"] = false;
