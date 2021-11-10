@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/COMP-4513-Fall2021-Assignment1/static/css/main.c38ce39d.chunk.css",
-    "main.js": "/COMP-4513-Fall2021-Assignment1/static/js/main.56f5198f.chunk.js",
-    "main.js.map": "/COMP-4513-Fall2021-Assignment1/static/js/main.56f5198f.chunk.js.map",
+    "main.js": "/COMP-4513-Fall2021-Assignment1/static/js/main.cd6e8388.chunk.js",
+    "main.js.map": "/COMP-4513-Fall2021-Assignment1/static/js/main.cd6e8388.chunk.js.map",
     "runtime-main.js": "/COMP-4513-Fall2021-Assignment1/static/js/runtime-main.454501b0.js",
     "runtime-main.js.map": "/COMP-4513-Fall2021-Assignment1/static/js/runtime-main.454501b0.js.map",
     "static/js/2.606c0b66.chunk.js": "/COMP-4513-Fall2021-Assignment1/static/js/2.606c0b66.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/COMP-4513-Fall2021-Assignment1/index.html",
     "static/css/main.c38ce39d.chunk.css.map": "/COMP-4513-Fall2021-Assignment1/static/css/main.c38ce39d.chunk.css.map",
     "static/js/2.606c0b66.chunk.js.LICENSE.txt": "/COMP-4513-Fall2021-Assignment1/static/js/2.606c0b66.chunk.js.LICENSE.txt",
-    "static/js/main.56f5198f.chunk.js.LICENSE.txt": "/COMP-4513-Fall2021-Assignment1/static/js/main.56f5198f.chunk.js.LICENSE.txt",
+    "static/js/main.cd6e8388.chunk.js.LICENSE.txt": "/COMP-4513-Fall2021-Assignment1/static/js/main.cd6e8388.chunk.js.LICENSE.txt",
     "static/media/favoriteStar.2025c704.svg": "/COMP-4513-Fall2021-Assignment1/static/media/favoriteStar.2025c704.svg",
     "static/media/favoriteStarAdd.73b8c903.svg": "/COMP-4513-Fall2021-Assignment1/static/media/favoriteStarAdd.73b8c903.svg",
     "static/media/logo.6ce24c58.svg": "/COMP-4513-Fall2021-Assignment1/static/media/logo.6ce24c58.svg"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.454501b0.js",
     "static/js/2.606c0b66.chunk.js",
     "static/css/main.c38ce39d.chunk.css",
-    "static/js/main.56f5198f.chunk.js"
+    "static/js/main.cd6e8388.chunk.js"
   ]
 }
